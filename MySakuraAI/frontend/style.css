@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+  color: white;
+  overflow: hidden;
+}
+
+.sakura-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.6);
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 15px;
+  text-align: center;
+  color: #ccc;
+  font-size: 0.8em;
+}
